@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:safety_mex_flutter/screens/splash_screen.dart';
 // Próximamente importaremos el paquete de Maps_flutter aquí
 
 Future<void> main() async {
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // La pantalla inicial de nuestra app será SafetyMapScreen
-      home: const SafetyMapScreen(),
+      home: const SplashScreen(),
     );
   }
 }
